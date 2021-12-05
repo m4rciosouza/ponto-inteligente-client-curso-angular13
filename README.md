@@ -1,27 +1,21 @@
-# PontoInteligenteClientCursoAngular13
+# Ponto Inteligente Cliente
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Código cliente Angular 13 do sistema de ponto inteligente.
 
-## Development server
+### Como executar a aplicação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+O código cliente depende da API RESTful [https://github.com/m4rciosouza/ponto-inteligente-api-curso-angular-v2](https://github.com/m4rciosouza/ponto-inteligente-api-curso-angular-v2), que deverá estar configurada e em execução como requisito.
+Para executar o cliente (após a execução da API RESTful), execute os seguintes passos:
 
-## Code scaffolding
+```
+git clone https://github.com/m4rciosouza/ponto-inteligente-client-curso-angular13.git
+cd ponto-inteligente-client-curso-angular13
+npm install -g @angular/cli
+npm install
+npm start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Acesse a aplicação em [http://localhost:4200](http://localhost:4200)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+_Para sua execução certifique-se também de possuir o [NodeJS](http://nodejs.org)._  
+_A instalação do @angular/cli acima pode necessitar ser executada como admin do sistema_
